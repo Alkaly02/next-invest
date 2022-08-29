@@ -3,7 +3,7 @@ Collaborated with a team to build this awesome website
 
 # Rules 
 
-1- Only use HTML/CSS/JS or Jquery
+1- Only use HTML/CSS/JS or Jquery <br>
 2- Don't work on the main branch, create your own
 
 # Figma file 
