@@ -1,3 +1,116 @@
+/* style de base */
 body, *{
     font-family: 'Josefin Sans', sans-serif;
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* ================ Home =============== */
+.section--home{
+    position: relative;
+    height: 100vh;
+    background-image: url('./assets//images/home.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.containt{
+    position: relative;
+    z-index: 1;
+}
+
+.section-home--title{
+    font-size: 3rem;
+    line-height: 60px;
+    margin-right: 12rem;
+}
+
+.section-home--title + p{
+    margin: 1.5rem 0;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.section-div--container {
+    position: relative;
+    padding: 1rem;
+}
+
+.section-div--container > img {
+    width: 50%;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.btn-submit{
+    background-color: #128C76;
+    color: white;
+    padding: 1rem 5rem;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.section--home > img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20%;
+}
+
+@media (max-width: 840px) {
+    .section-home--title{
+        font-size: 2rem;
+        line-height: 40px;
+        margin-right: 0rem;
+    }
+
+    .section-div--container > img {
+        width: 80%;
+        top: -30px;
+        left: -30px;
+    }
+
+    .section--home > img {
+        width: 40%;
+    }
+}
+
+@media (max-width: 400px) {
+    .section-home--title{
+        font-size: 2rem;
+        line-height: 40px;
+        margin-right: 0rem;
+    }
+
+    .section-div--container > img {
+        width: 100%;
+        top: -5px;
+    }
+
+    .section--home > img {
+        width: 60%;
+    }
 }
