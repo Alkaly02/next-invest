@@ -17,8 +17,9 @@ body, *{
     position: absolute;
     width: 30px;
     height: 48px;
-    right: 100px;
+    right: 50px;
     top: 442px;
+    top: 410px;
 
 }
 .groupe1__vector1{
@@ -32,27 +33,23 @@ body, *{
     padding: 0px;
     gap: 40px;
     position: absolute;
-    width: 570px;
-    height: 376px;
+    /* width: 570px; */
+    width: 580px;
+    /* height: 376px; */
+    height: 250px;
     left: 375px;
-    top: calc(50% - 376px/2);
+    left: 320px;
+    /* left: 375px; */
+    /* top: calc(50% - 376px/2); */
+    top:130px;
+    z-index: 20;
 }
 .content__subtract{
     width: 56px;
     height: 56px;
-    background: #128C76;
-    border-radius: 50px;
     position: relative;
 }
-.content__subtract i{
-    color:#fff;
-    position: absolute;
-    left: 5px;
-    bottom: 10px;
-    right: 5px;
-    line-height: 35px;
-    font-size: 30px;
-}
+
 .content__title{
     display: flex;
     flex-direction: column;
@@ -69,6 +66,7 @@ body, *{
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
+    font-size: 48px;
     line-height: 64px;
     color: #333333;
 }
@@ -84,10 +82,32 @@ body, *{
 }
 .graph__vector{
     position: absolute;
-    left: 0.73%;
-    right: 67.65%;
-    top: 38.94%;
+    /* left: 0.73%; */
+    /* right: 67.65%; */
+    /* top: 38.94%; */
     bottom: 0;
+    z-index: 2;
+}
+.graph__groupe2{
+position: absolute;
+left: 88.39%;
+/* left: 10px;  */
+/* right: 3.89%; */
+right: 10px;
+/* top: -10.63%; */
+/* bottom: 89.32%; */
+}
+.graph__chart img{
+    position: absolute;
+    /* width: 570px; */
+    width: 400px;
+    /* height: 335px; */
+    height: 300px;
+    left: 975px;
+    left: 920px;
+    top: 180.5px;
+
+
 }
 
 
