@@ -115,6 +115,50 @@ body,
   .section--home > img {
     width: 60%;
   }
+
+    height: 696px;
+    /* left: 11px; */
+    /* top: calc(50% - 696px/2 + 643.5px); */
+    background: #ECF4FD;
+}
+.graph__group1{
+    position: absolute;
+    width: 30px;
+    height: 48px;
+    right: 50px;
+    top: 442px;
+    top: 410px;
+    object-fit: contain;
+
+}
+.groupe1__vector1{
+    display: block; 
+    margin: 0 10px 0 10px;
+}
+.graph__content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    /* width: 570px; */
+    width: 580px;
+    /* height: 376px; */
+    height: 250px;
+    left: 375px;
+    left: 320px;
+    /* left: 375px; */
+    /* top: calc(50% - 376px/2); */
+    top:130px;
+    z-index: 20;
+}
+.content__subtract{
+    width: 56px;
+    height: 56px;
+    position: relative;
+    object-fit: contain;
+
 }
 
 /* la partie graphique */
@@ -200,4 +244,21 @@ body,
   right: 67.65%;
   top: 38.94%;
   bottom: 0;
+
+}
+.graph__groupe2{
+position: absolute;
+left: 88.39%;
+right: 10px;
+object-fit: contain;
+
+}
+.graph__chart img{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 975px;
+    left: 920px;
+    top: 180.5px;
+    object-fit: contain;
 }
