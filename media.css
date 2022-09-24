@@ -1,0 +1,88 @@
+@media only screen and (max-width:1293px) {
+    .graph__content{
+        margin-top: -60px;
+        width: 450px;
+        height: 250px;
+        height: 170px;
+        padding-left: 150px;
+        z-index: 20;
+    }
+    
+    .title__first{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 35px;
+        color: #333333;
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    .title__second{
+        width: 400px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #999999;
+    }
+    .graph__chart img{
+        margin-top: 110px;
+        width: 300px;
+        height: 250px; 
+        margin-left: 100px;
+    }
+    .graph__group{
+        margin-top: 300px;
+        padding-left: 30px;
+        width: 30px;
+        height: 48px;
+    }   
+}
+@media only screen and (max-width:950px) {
+    .group-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+    }
+    .graph__content{
+        margin-top: 100px;
+        width: 450px;
+        height: 250px;
+        height: 170px;
+        padding-left: 50px;
+        z-index: 20;
+    }
+    .graph__chart img{
+        position: relative;
+        margin-top: 130px;
+        width: 300px;
+        height: 250px; 
+        margin-left: -70px;
+        z-index: 3;
+    }
+    .graph__group{
+        margin-top: -50px;
+        padding-left: 360px;
+        width: 30px;
+        height: 48px;
+        position: relative;
+        z-index: 5;  
+    }
+    .graph__vector{
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+        width: 40px;
+        height: auto;
+    }
+    .graph__vector img{
+        width: 450px;
+        height: auto;
+ 
+    
+    }
+    
+}
